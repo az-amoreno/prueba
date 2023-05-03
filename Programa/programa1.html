@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer programa</title>
+    <script src="formulario.js"></script>
+    <link rel="stylesheet" href="programa1.css">
+</head>
+<body>
+    <form method="post">
+        <input type="text" name="nombre" id="name" required autofocus placeholder="Nombre">
+        <input type="text" name="apellidos" id="surname" required placeholder="Apellidos">
+        <input type="date" name="fechaNacimiento" id="birthday" required placeholder="Fecha de nacimiento">
+        <input type="text" name="usuario" id="user" required placeholder="Usuario">
+        <input type="password" name="contrasena" id="password" required placeholder="Contraseña">    
+        <div class="showPassword"><div id="div-check"><input type="checkbox" name="ver" id="check" onclick="showPasswd()"></div><div id="div-mostrar">Mostrar contraseña</div></div>
+        <input id="submit" type="submit" value="Crear usuario" required onclick="return validar()">
+    </form>
+</body>
+</html>

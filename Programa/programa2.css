@@ -1,0 +1,87 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#moon{
+    width: 2%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+#sun{
+    width: 2.5%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+    cursor: pointer;
+    display: none;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+div{
+    width: 25%;
+    height: 50%;
+    background-color:white;
+    margin-left: 5%;
+    border: solid 2px rgb(13, 227, 255);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color: rgb(0, 174, 255);
+    border: solid 2px rgb(13, 11, 114);
+    border-radius: 10px;
+}
+
+    p{
+        margin-right: 2%;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+
+#red{
+    color: red;
+}
+
+#blue{
+    color: blue;   
+}
+
+#yellow{
+    color: yellow;
+}
+
+#black{
+    color: black;
+}
+
+#pink{
+    color: pink;
+}
+
+#purple{
+    color: purple;
+}
+
+#orange{
+    color: orange;
+}
+
+#brown{
+    color: brown;
+}
