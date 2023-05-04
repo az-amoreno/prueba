@@ -1,0 +1,23 @@
+
+Clonación repositorio GitHub a repositorio local:
+
+Nos movemos a donde queramos que se nos descargue la carpeta del repositorio.
+
+1- git clone http://.... (url del repositorio)
+
+2- git init
+
+3- Se añaden los archivos y carpetas que se quieran subir a la carpeta del repositorio local
+
+4- git add .
+
+5- git commit -m "Primer commit"
+
+6- git remote add origin http://.... (url del repositorio)
+
+7- git push -u origin main(nombre de la rama) > Registro de git si es la primera vez
+
+
+Cuando ya se haya realizado la primera subida, podremos omitir el paso 6 en las siguientes subidas.
+
+
